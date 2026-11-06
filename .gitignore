@@ -1,0 +1,26 @@
+# Do not commit credentials, local state or virtual disks
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*token*
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+*.iso
+*.qcow2
+*.vmsd
+*.vmsn
+*.vmem
+*.log
+*.bak
+*.db
+*.sqlite*
+__pycache__/
+.DS_Store
+Thumbs.db
